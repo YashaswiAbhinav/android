@@ -17,7 +17,7 @@ There are 2 ways for asking permssion
 ```
 implementation("com.google.accompanist:accompanist-permissions:0.31.1-alpha")
 ```
-### For Single Permission
+* ### For Single Permission
 #### USE ```rememberPermissionState```
 ```
 @OptIn(ExperimentalPermissionsApi::class)
@@ -46,7 +46,7 @@ fun singlePermission(){
     }
 }
 ```
-### For Multiple Permissions
+* ### For Multiple Permissions
 #### USE ```rememberMultiplePermissionState```
 ```
 @OptIn(ExperimentalPermissionsApi::class)
@@ -74,7 +74,7 @@ fun Multiplepermission(){
 
 }
 ```
-### When the Permission is denied
+* ### When the Permission is denied
 #### We have to open the setting and let the user give the permission manually
 ```
 @Composable
