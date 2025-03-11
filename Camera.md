@@ -36,3 +36,52 @@ Before using the camera, request the camera permission in AndroidManifest.xml:
     * It's like the director of the show, controlling when the camera is active.
     * This prevents memory leaks.
 ## Preview in Camera
+Call this function after the permission is granted
+```
+@Composable
+fun CameraPreview() {
+    val context = LocalContext.current 
+    val lifecycleOwner = LocalLifecycleOwner.current 
+    val cameraProviderFuture = remember { ProcessCameraProvider.getInstance(context) }
+
+    AndroidView(
+        factory = { ctx -> //context of this Android view
+            val previewView = PreviewView(ctx) 
+
+            val executor = ContextCompat.getMainExecutor(ctx)
+            previewView.scaleType = PreviewView.ScaleType.FIT_CENTER // Or PreviewView.ScaleType.CENTER_INSIDE
+            cameraProviderFuture.addListener({
+                val cameraProvider = cameraProviderFuture.get()
+                val preview = androidx.camera.core.Preview.Builder().build().also { 
+                    it.setSurfaceProvider(previewView.surfaceProvider)
+                }
+
+                val cameraSelector = CameraSelector.DEFAULT_FRONT_CAMERA
+
+                cameraProvider.unbindAll()
+                cameraProvider.bindToLifecycle(lifecycleOwner, cameraSelector, preview)
+
+            }, executor)
+
+            previewView
+        },Modifier.width(150.dp).height(50.dp)
+    )
+}
+```
+* Ctx here is like the Context of the AdnroidView
+* We can edit the Preview by changing in the
+     ```
+     val preview = androidx.camera.core.Preview.Builder().build().also { 
+                    it.setSurfaceProvider(previewView.surfaceProvider)
+                }
+      ```
+* Options available are
+     1. ``` Target Resolution (setTargetResolution(Size size))``` Example: .setTargetResolution(Size(1280, 720))
+     2. ``` Target Aspect Ratio (setTargetAspectRatio(int aspectRatio))``` Example: .setTargetAspectRatio(AspectRatio.RATIO_16_9)
+     3. ``` Target Rotation (setTargetRotation(int rotation)) ``` Example: .setTargetRotation(Surface.ROTATION_0)
+     4. ```  Surface Provider (setSurfaceProvider(SurfaceProvider surfaceProvider)) ``` Example: .also { it.setSurfaceProvider(previewView.surfaceProvider) } *necessary*
+* now some advance techniques :-
+    1. Session Configuration
+    2. View Port
+    3. Default Config Modifications
+* We can  also use to make changes in the PreviewView
