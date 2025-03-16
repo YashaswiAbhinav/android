@@ -1,4 +1,4 @@
-<div align="center"> ![Reading](studying-anime-girl.gif) </div>
+![Reading](studying-anime-girl.gif)
 # Index
 ## * [LazyColumn](LazyColumn.md)
 ## * [Permission handelling](Permission.md)
