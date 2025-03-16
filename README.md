@@ -1,3 +1,4 @@
+<div align="center"> ![Reading](studying-anime-girl.gif) </div>
 # Index
 ## * [LazyColumn](LazyColumn.md)
 ## * [Permission handelling](Permission.md)
@@ -5,4 +6,5 @@
 ## * [MlFaceDetectionKit](MlFaceDetectionKit.md)
 ## * [MediaStore](MediaStore.md)
 ## * [SplashScreen](SplashScreen.md)
-![Reading](studying-anime-girl.gif)
+## * [Navigation & Navigation Animation](Navigation.md)
+
