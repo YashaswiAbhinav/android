@@ -16,7 +16,8 @@ The steps to how to implement animated splash screen is given below:<br>
     <br>
     <li>
       <u><b>2. Downloading dependencies</b></u><br>
-      ```implementation "com.airbnb.android:lottie-compose:{$Latest-version}"```
+      ``````
+      implementation "com.airbnb.android:lottie-compose:{$Latest-version}"
     </li>
   </ul>
 </p>
