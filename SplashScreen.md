@@ -10,14 +10,14 @@ The steps to how to implement animated splash screen is given below:<br>
 </p>
 <p>
   <ul>
-    <l1>1. <u>Downloading animation as JSON file from lottie animation</u><br>
+    <l1>1. <u><b>Downloading animation as JSON file from lottie animation</b></u><br>
               Go to download page and selection the option "Lottie JSON" to download it as JSON file
     </l1>
     <li>
-      <u>2. Downloading dependencies</u><br>
-      ```
+      <u><b>2. Downloading dependencies</b></u><br>
+      `
       implementation "com.airbnb.android:lottie-compose:{$Latest-version}"
-      ```
+      ` 
     </li>
   </ul>
 </p>
