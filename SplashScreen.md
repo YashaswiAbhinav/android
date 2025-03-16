@@ -20,7 +20,7 @@ The steps to how to implement animated splash screen is given below:<br>
       
       pythondef hello_world():
     print("Hello, world!")
-
+  .
     </li>
   </ul>
 </p>
