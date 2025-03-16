@@ -16,10 +16,9 @@ The steps to how to implement animated splash screen is given below:<br>
     <br>
     <li>
       <u><b>2. Downloading dependencies</b></u><br>
-      ```
       
-      python
-def hello_world():
+      
+      pythondef hello_world():
     print("Hello, world!")
 
     </li>
