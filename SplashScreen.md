@@ -1,5 +1,5 @@
 # Splash Screen
 # ===============
 
-######### Screenshot:
-[image](ss1.png)
+###### Screenshot:
+<img src="ss1.png">
