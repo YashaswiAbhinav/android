@@ -1,4 +1,4 @@
-# Splash Screen
+# <u>Splash Screen</u>
  ===============
 
 ###### Screenshot:
