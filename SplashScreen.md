@@ -10,7 +10,7 @@ The steps to how to implement animated splash screen is given below:<br>
 </p>
 <p>
   <ul>
-    <l1>Downloading animation as JSON file from lottie animation</l1>
+    <l1>1. <u>Downloading animation as JSON file from lottie animation</u></l1>
   </ul>
 </p>
 
