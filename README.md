@@ -4,4 +4,4 @@
 ## * [Camera](Camera.md)
 ## * [MlFaceDetectionKit](MlFaceDetectionKit.md)
 ## * [MediaStore](MediaStore.md)
-## * 
+## * [SplashScreen](SplashScreen.md)
