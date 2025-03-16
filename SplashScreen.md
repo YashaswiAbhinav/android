@@ -16,7 +16,7 @@ The steps to how to implement animated splash screen is given below:<br>
     <br>
     <li>
       <u><b>2. Downloading dependencies</b></u><br>
-      ```kotlin // This is a Kotlin code sample fun greet(name: String): String { return "Hello, $name!" } ```
+      ```kotlin // This is a Kotlin code sample fun greet(name: String): String { return "Hello, $name!" }```
     </li>
   </ul>
 </p>
