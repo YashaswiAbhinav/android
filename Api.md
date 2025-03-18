@@ -52,3 +52,25 @@ object RetrofitInstance {
         }
     }
 ```
+## Calling the api with variables
+```
+@GET("internshala/{category}")
+suspend fun getInternshalaData(@Path("category") category: String): List<post>
+```
+```
+var categoryPath by remember { mutableStateOf<String?>(null) }
+LaunchedEffect(Unit) {
+    scope.launch {
+        try {
+            val response = RetrofitInstance.api.getCategoryPath() // This API gives the path (e.g., "android")
+            categoryPath = response.path  // Assume response has a 'path' field
+
+            categoryPath?.let { category ->
+                posts = RetrofitInstance.api.getInternshalaData(category)
+            }
+        } catch (e: Exception) {
+            error = e.message
+        }
+    }
+}
+```
