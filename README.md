@@ -1,10 +1,10 @@
 ![Reading](studying-anime-girl.gif)
 # Index
-## * [LazyColumn](LazyColumn.md)
-## * [Permission handelling](Permission.md)
-## * [Camera](Camera.md)
-## * [MlFaceDetectionKit](MlFaceDetectionKit.md)
-## * [MediaStore](MediaStore.md)
-## * [SplashScreen](SplashScreen.md)
-## * [Navigation & Navigation Animation](Navigation.md)
-
+* ## [LazyColumn](LazyColumn.md)
+* ## [Permission handelling](Permission.md)
+* ## [Camera](Camera.md)
+* ## [MlFaceDetectionKit](MlFaceDetectionKit.md)
+* ## [MediaStore](MediaStore.md)
+* ## [SplashScreen](SplashScreen.md)
+* ## [Navigation & Navigation Animation](Navigation.md)
+* ## [Api](Api.md)
