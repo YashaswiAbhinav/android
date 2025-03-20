@@ -8,3 +8,5 @@
 * ## [SplashScreen](SplashScreen.md)
 * ## [Navigation & Navigation Animation](Navigation.md)
 * ## [Api](Api.md)
+* ## [ExoPlayer](ExoPlayer.md)
+* 
