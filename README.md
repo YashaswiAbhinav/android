@@ -9,4 +9,4 @@
 * ## [Navigation & Navigation Animation](Navigation.md)
 * ## [Api](Api.md)
 * ## [ExoPlayer](ExoPlayer.md)
-* ## [Guestures](Guestures.md)
+* ## [Gestures](Gestures.md)
