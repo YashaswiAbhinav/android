@@ -18,7 +18,7 @@ implementation(platform("com.google.firebaseLfirebase-bom:33.6.8"))
 13. now add implementation accordingly whatever you are using for database you have a different one and for firestore you have a different one
 
 ## As the firebase setup is done now we can move on to the different features that fireabse provides
-#### (1. Authentication – Login with Email, Google, or Phone.)[https://github.com/LUAMICIFER/android/edit/main/firebase.md#1-authentication--login-with-email-google-or-phone]
+#### [1. Authentication – Login with Email, Google, or Phone.](https://github.com/LUAMICIFER/android/edit/main/firebase.md#1-authentication--login-with-email-google-or-phone)
 #### 2. Firestore Database – Store and retrieve structured data.
 #### 3. Realtime Database – Sync data in real time.
 #### 4. Cloud Storage – Store files (images, videos, etc.).
